@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="dey">dey</p>
+</body>
+<script>
+    let dey = document.getElementById('dey');
+    let year = new Date().getFullYear();
+    if (year % 4 === 0 && year % 100 !== 0 || year % 400 === 0) {
+        dey.innerHTML = '12 сентября - день программиста, потому что этот год високосный';
+    } else {
+        dey.innerHTML = '13 сентября - день программиста, потому что этот год не високосный';
+    }
+</script>
+</html>
