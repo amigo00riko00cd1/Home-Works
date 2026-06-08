@@ -1,0 +1,15 @@
+{% extends 'layout/main.html' %}
+{% load static %}
+
+{% block content %}
+    <h1>Writers</h1>
+    <ul>
+        {% for key, value in writers.items %}
+            <li>
+                <a href="./{{key}}">
+                    {{key}} {{value}}
+                </a>
+            </li>
+        {%endfor%}
+    </ul>
+{% endblock %}

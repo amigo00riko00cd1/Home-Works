@@ -1,0 +1,15 @@
+{% extends 'layout/main.html' %}
+{% load static %}
+
+{% block content %}
+    <h1>Top Best Books</h1>
+    <ul>
+        {% for key, value in books.items %}
+            <li>
+               <a href="{{key}}">
+                <p>{{value}}</p>
+               </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,47 @@
+.my-footer{
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.my-header{
+    display: flex;
+    background-color: #4f4c4c;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+
+    padding: 10px 15px;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item{
+    margin: 0 15px;
+}
+
+.btn{
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #857272;
+    color: #fff;
+}
+
+.content{
+    padding: 20px;
+    background-color: #848080;
+    color: #fff;
+}
