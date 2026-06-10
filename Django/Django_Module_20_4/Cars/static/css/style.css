@@ -1,0 +1,29 @@
+.header{
+    padding: 6px;
+    background: rgb(105, 102, 102);
+
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.nav-list{
+    display: flex;
+}
+
+.nav-item{
+    margin: 5px;
+}
+
+.btn{
+    padding: 5px 7px;
+    background: rgb(138, 121, 89);
+    color: white
+}
+
+.btn:hover{
+    padding: 7px 7px;
+    color: rgb(174, 172, 172);
+    background: rgb(196, 172, 125);
+}

@@ -1,0 +1,20 @@
+.name-site{
+    color: white;
+    font-size: 20px;
+}
+
+.header{
+    background: rgb(171, 161, 142);
+    padding: 8px;
+}
+.footer{
+    background: rgb(130, 124, 114);
+    padding: 8px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    background: rgb(104, 95, 77);
+    color: white;
+}
