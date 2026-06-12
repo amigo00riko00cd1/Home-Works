@@ -1,0 +1,10 @@
+{% extends 'layout/main.html' %}
+{% load static %}
+
+{% block content %} 
+   <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-standart">Push</button>
+   </form>
+{% endblock %}

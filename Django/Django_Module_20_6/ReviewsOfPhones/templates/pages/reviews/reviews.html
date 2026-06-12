@@ -1,0 +1,18 @@
+{% extends 'layout/main.html' %}
+{% load static %}
+
+{% block content %}
+    <ul>
+        {% for review in reviews %}
+            <li>
+                <a href="/reviews/{{review.id}}/">
+                    <div>
+                        <h2>{{review.nik_name}}</h2>
+                        <p>{{review.description}}</p>
+                        <h3>{{review.stars}}</h3>
+                    </div>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

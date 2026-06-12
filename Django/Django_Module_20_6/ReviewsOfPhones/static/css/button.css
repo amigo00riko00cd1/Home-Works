@@ -1,0 +1,11 @@
+.btn{
+    padding: 10px 5px;
+    margin: 0px 5px;
+
+}
+
+.btn-standart{
+    background: rgb(59, 168, 166);
+    border-radius: 5px;
+    border: 2px solid rgb(27, 26, 26) 
+}
